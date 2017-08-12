@@ -4,12 +4,12 @@ import org.spring5.model.User;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.server.ServerResponse;
-
 import reactor.core.publisher.Mono;
 
-//@RestController("/api/v2")
+@RestController("/api/v2")
 public class UserController {
 	
 	@GetMapping("/user")
