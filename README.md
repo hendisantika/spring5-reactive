@@ -12,6 +12,6 @@ Clone the repository and run the main class.
 
 To build and Start the application.
 
-cd spring5-reactive
+`cd spring5-reactive`
 
-mvn spring-boot:run
+`mvn clean spring-boot:run`
